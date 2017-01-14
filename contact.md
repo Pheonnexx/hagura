@@ -4,7 +4,7 @@ layout: post
 permalink: /contact/
 ---
 
-Grab me on:
+Contact me on:
 
 Email: <a href="mailto:{{site.email}}">{{site.email}}</a>
 
