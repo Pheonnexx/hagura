@@ -55,7 +55,7 @@ I took lead on developing the digital-register-frontend and the esecurity-fronte
     <a href="http://192.168.249.38/digital-register-view/esecurity-frontend">esecurity-frontend</a>
 </b>
 
-The work on public-account-service-api was completed by a contract team member, I gave guidance on what was needed to be sent to our internal systems, such as business event_id's that I had set up.  
+The work on public-account-service-api was completed by a contract team member.  I gave guidance on what was needed to be sent to our internal systems, such as business event_id's.
 
 While implementing the solution, I made the decision to validate the token part of the password link as soon as the user used it instead of when they submitted their password change.  This allowed for the user to be informed if the password link was invalid quicker and without wasting their time.  As well as making sure that the public-account-service-api had the ability to do this I then had to implement it in the frontend as shown by the code snippet below.
 
