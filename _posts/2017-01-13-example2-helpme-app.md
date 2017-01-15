@@ -11,32 +11,32 @@ On December 2nd of last year I attended DataPlay, ran by Plymouth City Council. 
 
 By attending this event, I would be gain practice in understanding and utilising different data, whilst also improving my ability to create prototypes to prove an idea within a short amount of time.
 
-To this end, I authored an article on the experience that can be viewed in the link below.
+I have authored an article on the experience that can be viewed in the link below.
 
 <b>
     <a href="https://medium.com/@Pheonnexx/data-play-helpme-app-949487637206#.p0mj7n8l5">Dataplay HelpMe App Article</a>
 </b>
 
-The first iteration of the prototype built on the day was a Python Flask application written with the 'flask-ask' package which allows the application to communicate with Amazon's Alexa (also known as Echo) device.  It was deployed in Heroku and then set up as an Alexa skill in Amazon's developer portal.
+The first iteration of the prototype built on the day was a Python Flask application written with the 'flask-ask' package which allows the application to communicate with Amazon's Alexa (also known as Echo) device.  It was deployed in Heroku and then set up as an Alexa Skill in Amazon's developer portal.
 
 Using the portal you have to set up intents, which is how variables from a person's spoken request are captured.
 
 ![Setting up Alexa's intents and sample utterances]({{ site.baseurl }}/assets/alexa_utterance_and_intents.png){:class="img-responsive"}
 
-Finally after setting up the rest of the Alexa skill in Amazon by providing the SSL certificate and pointing it at the application which is running on Heroku, you can then test it via the simulator.
+Finally after setting up the rest of the Alexa Skill in Amazon by providing the SSL certificate and then pointing it at the application which is running on Heroku, you are able to test it via the simulator.
 
 ![Testing the application using the service simulator]({{ site.baseurl }}/assets/alexa_service_simulator.png){:class="img-responsive"}
 
-To demonstrate the idea of someone asking the application to contact their emergency person, all aspects were hardcoded.  The prototype alongside an description of how it could be used was submitted to a committee.  I received excellent feedback that it was their highest quality submission so far, however my application was too 'global' and there were looking for something that would help Plymouth directly.  However, I am in communication with Plymouth community homes about testing and developing the prototype further to help them support older or infirm people in their own homes.
+To demonstrate the idea of someone asking the application to notify their emergency contact, all aspects were hardcoded.  The prototype, alongside a description of how it could be used, was then submitted to a committee.  I received excellent feedback, with the committee stating that it was the highest quality submission they had seen, however my application was deemed too 'global' and they were looking for something that would help Plymouth more directly.  Nonetheless, I am in communication with Plymouth Community Homes about testing and developing the prototype further in order to help them support older or infirm people in their own homes.
 
-Below is the git repository which is public and viewable by anyone.  The idea of it being open source allowing it to provide an example to others.
+Below is the Git repository which is public and viewable by anyone.  By being open source, I am hopeful it will provide an example to others.
 
 <b>
     <a href="https://github.com/Pheonnexx/alexa_helpme">Alexa HelpMe github</a>
 </b>
 
-In improving the application, I have changed the the api used for sending an SMS to the contact to use one provided by <b><a href="https://www.twilio.com">Twilio</a></b>.  Learning to use this API will allow me to understand and utilise the GOV.UK Notify service at work.
+In improving the application, I have changed the the API used for sending an SMS to the contact to use one provided by <b><a href="https://www.twilio.com">Twilio</a></b>.  By learning to use this API, I will gain the requisite knowledge to understand and utilise the GOV.UK Notify service at the Land Registry.
 
-I have started adding functionality to add a contact by a user, it currently takes in their information with plans to then add it to a table, probably using Postgres.
+I have started developing functionality to allow the user to add a contact. Currently, it takes in their information but does not save it to a database. The changes that I have planned will see this data added to a database, probably using Postgres.
 
-I will be bringing my Amazon Alexa unit into the presentation to give a working demonstration.
+ In order to provide a working demonstration, I will be bringing my Amazon Alexa unit into the presentation..
