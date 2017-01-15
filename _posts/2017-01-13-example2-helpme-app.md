@@ -39,4 +39,4 @@ In improving the application, I have changed the the API used for sending an SMS
 
 I have started developing functionality to allow the user to add a contact. Currently, it takes in their information but does not save it to a database. The changes that I have planned will see this data added to a database, probably using Postgres.
 
- In order to provide a working demonstration, I will be bringing my Amazon Alexa unit into the presentation..
+ In order to provide a working demonstration, I will be bringing my Amazon Alexa unit into the presentation.
