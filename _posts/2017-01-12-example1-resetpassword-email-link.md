@@ -7,7 +7,7 @@ title: "Ex 1: Reset Password"
 
 For Find property information we are currently sending out a temporary password via email.  With this, the user would then have to log in with the temporary password and then they would be prompted to change their password.
 
-A user story wanted to change this so that a password reset link would be sent out via email.  The user would then follow this link and they change their password and login.
+ In order to improve the security of the password reset solution and reduce the risk of hacking, a user story wanted to change the current solution so that a password reset link would be sent out via email.  The user would then follow this link and they change their password and login.
 
 Design and user research had taken place when I took up the story, what needed to be considered next was what technology we were going to use to deliver the solution.  We could continue to employ our current methods using the likes of ECNOT, an internal application, to send out our emails, or potentially use the GOV.UK Notify service which is currently in beta but useable in live by invited services.
 
@@ -23,7 +23,7 @@ I determined that changes were needed to these services:
 
 <h3>digital-register-frontend</h3>
  - New routes were needed for changing passwords, and requesting password reset emails.  
- - New pages which followed the design were needed for the
+ - New pages which followed the design were needed for changing passwords, and requesting password reset emails.
  - Changes to the information we send to our public-account-service-api, additional checks were needed to validate the token.
 
 <h3>esecurity-frontend</h3>
@@ -99,7 +99,7 @@ def reset_password_page(heading, message, processerrors=None):
 ```
 
 
-I put the SQL code together myself and had it checked by our web ops representative to confirm  correctness.  I unfortunately cannot show it on this site but will quite happily demonstrate this in person.
+I developed the SQL code myself and had it checked by our web ops representative to confirm  correctness.  I unfortunately cannot show it on this site but will quite happily demonstrate this in person.
 
 <h2>Conclusion</h2>
 

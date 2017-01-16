@@ -7,9 +7,9 @@ title: "Ex 2: Alexa HelpMe"
 
 As part of developing my skills within software engineering I aim to attend a number of external events.  This allows me to get a feel of new and relevant technology and skills which could help me and the Land Registry develop quality services.
 
-On December 2nd of last year I attended DataPlay, ran by Plymouth City Council.  They release open source data according to the theme of the hackday that is being run, in this case, health related data.
+On December 2nd of last year I attended DataPlay, run by Plymouth City Council.  They release open source data according to the theme of the hackday that is being run, in this case, health related data.
 
-By attending this event, I would be gain practice in understanding and utilising different data, whilst also improving my ability to create prototypes to prove an idea within a short amount of time.
+By attending this event, I would gain practice in understanding and utilising different data, whilst also improving my ability to create prototypes to prove an idea within a short amount of time.
 
 I have authored an article on the experience that can be viewed in the link below.
 
@@ -35,7 +35,7 @@ Below is the Git repository which is public and viewable by anyone.  By being op
     <a href="https://github.com/Pheonnexx/alexa_helpme">Alexa HelpMe github</a>
 </b>
 
-In improving the application, I have changed the the API used for sending an SMS to the contact to use one provided by <b><a href="https://www.twilio.com">Twilio</a></b>.  By learning to use this API, I will gain the requisite knowledge to understand and utilise the GOV.UK Notify service at the Land Registry.
+In improving the application, I have changed the the API used for sending an SMS to the contact to use one provided by <b><a href="https://www.twilio.com">Twilio</a></b>.  By learning to use this API, I have gained the requisite knowledge to understand and utilise the GOV.UK Notify service at the Land Registry.
 
 I have started developing functionality to allow the user to add a contact. Currently, it takes in their information but does not save it to a database. The changes that I have planned will see this data added to a database, probably using Postgres.
 
