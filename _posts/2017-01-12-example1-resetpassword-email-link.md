@@ -9,7 +9,7 @@ For Find property information we are currently sending out a temporary password 
 
  In order to improve the security of the password reset solution and reduce the risk of hacking, a user story wanted to change the current solution so that a password reset link would be sent out via email.  The user would then follow this link and they change their password and login.
 
-Design and user research had taken place when I took up the story, what needed to be considered next was what technology we were going to use to deliver the solution.  We could continue to employ our current methods using the likes of ECNOT, an internal application, to send out our emails, or potentially use the GOV.UK Notify service which is currently in beta but useable in live by invited services.
+Design and user research had taken place when I took up the story, what needed to be considered next was what technology we were going to use to deliver the solution.  We could continue to employ our current methods using the likes of ECNOT, an internal application, to send out our emails, or potentially use the GOV.UK Notify service which is currently in beta but usable in live by invited services.
 
 To this end, I created an options paper which documented the directions we could take, with the pros and cons of each potential option we had.  This was then submitted to the architect, lead technical designer and team with my recommendation of what option to take.  The pdf below was what was submitted to these stakeholders.
 
@@ -70,7 +70,6 @@ def change_password(token):
         response = api_client.validate_password_reset_token(token)
         if response and hasattr(response, 'json'):
             if response.json().get('status') is not True:
-                print(response.json())
                 return reset_password_page(
                     heading="Sorry that link isn't valid",
                     message="Enter your email address - we'll send you a new link")
