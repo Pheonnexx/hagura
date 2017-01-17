@@ -102,6 +102,6 @@ I developed the SQL code myself and had it checked by our web ops representative
 
 <h2>Conclusion</h2>
 
-The reset password story has been deployed successfully into our pre prod environment, due to the SQL changes to be ran in the DB2 tables we need to schedule according to other changes going in.  This should be delivered within a week.
+The reset password story has been deployed successfully into our integration environment, due to the SQL changes to be ran in the DB2 tables we need to schedule according to other changes going in.
 
 The success of these changes will be monitored in the feedback and the analytics we have in place to measure how many people use it, and thus complete the journey.
